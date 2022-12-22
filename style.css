@@ -19,7 +19,7 @@ main{
 .card-container{
     position: relative;
     height: 100%;
-    width: calc(var(--card-width) * (var(--num-card) /2) + vae(--card-horizontal-space)) ;
+    width: calc(var(--card-width) * (var(--num-card) /2) + var(--card-horizontal-space)) ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
